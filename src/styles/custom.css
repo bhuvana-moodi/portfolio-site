@@ -1,0 +1,72 @@
+/* Gradient background for hero */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #D1E8E2, #FFCB9A);
+  color:black;
+}
+
+#root {
+  min-height: 100%;
+  background-color: inherit;
+}
+
+.hero-section {
+  background: linear-gradient(135deg,#116466,#2C3531);
+  color: white;
+}
+
+/* Custom buttons */
+.btn-custom {
+  background-color: #7e6147;
+  color:white;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn-outline-secondary{
+background-color: #FFCB9A;
+  color:black;
+  border: none;
+  transition: all 0.3s ease-in-out
+}
+
+.btn-custom:hover {
+  background-color: #09130e;
+  color:white;
+  transform: scale(1.05);
+}
+
+.btn-outline-secondary:hover{
+background-color: #116466;
+  color:white;
+  border: none;
+  transition: all 0.3s ease-in-out
+}
+
+/* Project card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0a3329;
+}
+
+/* Contact form focus effect */
+input:focus,
+textarea:focus {
+  border-color: #020114 !important;
+  box-shadow: 0 0 0 0.2rem #116466;
+}
+
+/* Footer custom color */
+footer {
+  background: linear-gradient(to right,#116466,#2C3531);
+  color: white;
+}
