@@ -3,21 +3,20 @@ import React from "react";
 const projects = [
   {
     title: "College Event Management System",
-    img: "/assets/project1.png",
     image:"/assets/projects/event-system.png",
     demo: "https://event-frontend-nlnivtyex-bhuvana-moodis-projects.vercel.app/",
     code: "https://github.com/bhuvana-moodi/event-frontend",
   },
   {
     title: "NUT-CAL",
-    img: "/assets/project2.png",
+    image: "/assets/project2.png",
     demo: "#",
     code: "#",
   },
   {
-    title: "Tourist Management System",
-    img: "/assets/project3.png",
-    demo: "#",
+    title: "ATM-Simulator",
+    image: "/assets/projects/atm-simulator.png",
+    demo: "java -cp lib/mysql-connector-j-8.0.33.jar;bin Main",
     code: "#",
   },
 ];
