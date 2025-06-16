@@ -16,7 +16,7 @@ const projects = [
   {
     title: "ATM-Simulator",
     image: "/assets/projects/atm-simulator.png",
-    demo: "java -cp lib/mysql-connector-j-8.0.33.jar;bin Main",
+    demo: 'java -cp "lib/mysql-connector-j-8.0.33.jar;bin" Main',
     code: "#",
   },
 ];
