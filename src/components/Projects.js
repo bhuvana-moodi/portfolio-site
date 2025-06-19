@@ -9,9 +9,8 @@ const projects = [
   },
   {
     title: "NUT-CAL",
-    image: "/assets/project2.png",
-    demo: "#",
-    code: "#",
+    image: "/assets/nut-cal-demo.jpg",
+    code: "https://github.com/AdithSG/Nut-Cal#",
   },
   {
     title: "ATM-Simulator[console based]",
