@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "NUT-CAL",
-    image: "/assets/nut-cal-demo.jpg",
+    image: "/assets/projects/nut-cal-demo.png",
     code: "https://github.com/AdithSG/Nut-Cal#",
   },
   {
