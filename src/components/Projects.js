@@ -11,11 +11,12 @@ const projects = [
     title: "NUT-CAL",
     image: "/assets/projects/nut-cal-demo.png",
     code: "https://github.com/AdithSG/Nut-Cal#",
+    demo: "https://github.com/AdithSG/Nut-Cal#"
   },
   {
     title: "ATM-Simulator[console based]",
     image: "/assets/projects/atm-simulator.png",
-    demo: 'java -cp "lib/mysql-connector-j-8.0.33.jar;bin" Main',
+    demo: "https://github.com/bhuvana-moodi/ATM-simulator-java",
     code: "https://github.com/bhuvana-moodi/ATM-simulator-java",
   },
 ];
